@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <div class="main-success">
+
+    <img src="images/icon-success.svg" alt="">
+
+    <div class="success-text">
+        <h1>Thanks for subscribing!</h1>
+
+        <p>A confirmation email has been sent to <span class="confirmation-email"><%= email %></span>. 
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+
+    <button><a class="dismissButton" href="http://localhost:3000/" >Dismiss message</a></button>
+
+  </div>
+
+  <script src="main.js"></script>
+  
+</body>
+</html>
